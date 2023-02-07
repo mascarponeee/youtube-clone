@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="shortcut icon" href="YouTube-icon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="white-circle">.</div>
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/channels4_profile.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/shorts.svg">
+      <div>Shorts</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=0gZ009bc9a4">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          </a>
+          <div class="video-time">14:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@alinamuradimova">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=0gZ009bc9a4">
+              <p class="video-title">
+                Тренд на героиновый шик возвращается | Твое тело снова не ...
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@alinamuradimova">
+              <p class="video-author">
+                Alina Мuradimova
+              </p>
+            </a>
+            <p class="video-stats">
+              12K views &#183; 2 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=HfaIcB4Ogxk&t=19s">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          </a>
+          <div class="video-time">8:17:04</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@WRGplaylist">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=HfaIcB4Ogxk&t=19s">
+              <p class="video-title">
+                [Playlist] 일하면서 틀어 놓기 좋은 잔잔한 8시간 재즈 플레이리스트 ...
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@WRGplaylist">
+              <p class="video-author">
+                WRG 우리가 듣고 싶어서 연주한 playlist
+              </p>
+            </a>
+            <p class="video-stats">
+              1,7M views &#183; 3 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Vc9hA6tDjYI">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          </a>
+          <div class="video-time">14:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@rskdrvk">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=Vc9hA6tDjYI">
+              <p class="video-title">
+                Профессия тестировщика. Как прийти в IT, если ты гуманитарий?
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@rskdrvk">
+              <p class="video-author">
+                Раскадровка
+              </p>
+            </a>
+            <p class="video-stats">
+              4,6K views &#183; 4 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=OiU6q1_AL_s">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          </a>
+          <div class="video-time">15:18</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@GRAZYTV">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=OiU6q1_AL_s">
+              <p class="video-title">
+                Handsome Fiancé Disappears: We Know The Suspects But They Weren't ...
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@GRAZYTV">
+              <p class="video-author">
+                GRAZY TV
+              </p>
+            </a>
+            <p class="video-stats">
+              523K views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Lcdi9O2XB4E">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@TokyoTones">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=Lcdi9O2XB4E">
+              <p class="video-title">
+                tokyo night drive - lofi hiphop + chill + beats to sleep/relax/study to &#10024;
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@TokyoTones">
+              <p class="video-author">
+                TOKYO TONES
+              </p>
+            </a>
+            <p class="video-stats">
+              244 watching
+            </p>
+            <div class="live-section">
+              <img class="live-icon" src="icons/live-stream.svg">
+              <p class="live-text">LIVE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=uuNHJyp3Xhg&t=3s">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          </a>
+          <div class="video-time">48:42</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@cormix8701">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=uuNHJyp3Xhg&t=3s">
+              <p class="video-title">
+                Imagine you're sitting in the woods - playlist
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@cormix8701">
+              <p class="video-author">
+                Cormix
+              </p>
+            </a>
+            <p class="video-stats">
+              596K views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=h-grthPvpB0&t=4s">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+          </a>
+          <div class="video-time">8:49</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@SuperSimpleDev">
+              <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=h-grthPvpB0&t=4s">
+              <p class="video-title">
+                How (in 2022) to become a software engineer with no experience
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@SuperSimpleDev">
+              <p class="video-author">
+                SuperSimpleDev
+              </p>
+            </a>
+            <p class="video-stats">
+              384K views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=SwajDBE8oCs">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+          </a>
+          <div class="video-time">3:58</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@SBSKPOP_ZOOM">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=SwajDBE8oCs">
+              <p class="video-title">
+                [안방1열 직캠4K] 엑스지 코코나 'SHOOTING STAR' (XG COCONA FanCam) ...
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@SBSKPOP_ZOOM">
+              <p class="video-author">
+                스브스케이팝 ZOOM
+              </p>
+            </a>
+            <p class="video-stats">
+              72K views &#183; 4 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Np_S-GAJbSM">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@coffeerelaxingjazz">
+              <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=Np_S-GAJbSM">
+              <p class="video-title">
+                Rainy Day at Cozy Coffee Shop &#9749; Relaxing Jazz Instrumental ...
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@coffeerelaxingjazz">
+              <p class="video-author">
+                Coffee Relaxing Jazz
+              </p>
+            </a>
+            <p class="video-stats">
+              930 watching
+            </p>
+            <div class="live-section">
+              <img class="live-icon" src="icons/live-stream.svg">
+              <p class="live-text">LIVE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=POWZMKRgIyo">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+          </a>
+          <div class="video-time">14:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@EnglishWithVeronikaMark">
+              <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=POWZMKRgIyo">
+              <p class="video-title">
+                How I Learned to Speak Foreign Languages Without Talking to ...
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@EnglishWithVeronikaMark">
+              <p class="video-author">
+                English with Veronika Mark
+              </p>
+            </a>
+            <p class="video-stats">
+              214K views &#183; 4 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=cYbWxYJ6O-U">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+          </a>
+          <div class="video-time">25:49</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@johnnydetka">
+              <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=cYbWxYJ6O-U">
+              <p class="video-title">
+                ДЖАСТИН и ХЕЙЛИ: АБЬЮЗИВНЫЕ ОТНОШЕНИЯ?
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@johnnydetka">
+              <p class="video-author">
+                Johnny B
+              </p>
+            </a>
+            <p class="video-stats">
+              743K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=FqPiPrW2xZw">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+          </a>
+          <div class="video-time">10:45:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@moodisjazz">
+              <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=FqPiPrW2xZw">
+              <p class="video-title">
+                Playlist | 왈츠, 재즈
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@moodisjazz">
+              <p class="video-author">
+                기분Jazz네
+              </p>
+            </a>
+            <p class="video-stats">
+              227K views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
